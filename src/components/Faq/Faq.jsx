@@ -17,7 +17,10 @@ const Faq = () =>  {
     
     return (
         <>
-    <button onClick={handleShowAnswer}>{showAnswer ? "Hide" : "Show"} Why is REACT great</button>
+    <p>
+        Why is REACT great
+    <button onClick={handleShowAnswer}>{showAnswer ? "-" : "+"}</button>
+    </p>
     {showAnswer && (
         <Antwort/>
         )}
