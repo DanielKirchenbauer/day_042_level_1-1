@@ -3,7 +3,9 @@ import Antwort from './Antwort'
 
 
 
-const Faq = () =>  {
+const Faq = (props) =>  {
+    let lastArray = props.question
+    console.log(lastArray);
 
     const [showAnswer, setShowAnswer] = useState(false);
     

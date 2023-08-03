@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Faq from './components/Faq/Faq'
+import DataFaq from './components/Data/Data'
+import TestThat from './components/TestThat/TestThat'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +13,8 @@ function App() {
     <>
     <div>
     <Faq/>
+    {/* <DataFaq/> */}
+    <TestThat/>
     </div>
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
